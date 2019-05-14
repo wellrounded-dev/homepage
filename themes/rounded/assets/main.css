@@ -1,0 +1,38 @@
+---
+# Metadata makes this file regenerate...?
+---
+
+body {
+  background: white;
+  font-family: adobe-caslon-pro, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.site-header,
+.page-content,
+.site-footer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.site-header {
+  font-size: 2.0em;
+  font-weight: 800;
+  padding: 80px 0 0;
+}
+
+.page-content p {
+  font-size: 1.3em;
+  line-height: 1.6em;
+  margin: 0 0 30px;
+}
+
+.page-content h2 {
+  margin: 40px 0 20px;
+}
+
+.survey {
+  margin: 20px 0;
+}
