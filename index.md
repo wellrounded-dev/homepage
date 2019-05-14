@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 form:
   event-days:
   event-format:
