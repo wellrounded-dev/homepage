@@ -9,57 +9,7 @@ layout: default
 <main class="page-content" aria-label="Content">
   <div class="wrapper">
     {{ content }}
-    <div class="survey">
-      <form name="survey" method="POST" data-netlify="true">
-        <div class="event-days">
-          <table>
-              <tr>
-                <th></th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-              </tr>
-              <tr>
-                <th>First</th>
-                <td><input type="checkbox" name="event-days[]" value="mon-1"></td>
-                <td><input type="checkbox" name="event-days[]" value="tue-1"></td>
-                <td><input type="checkbox" name="event-days[]" value="wed-1"></td>
-                <td><input type="checkbox" name="event-days[]" value="thu-1"></td>
-                <td><input type="checkbox" name="event-days[]" value="fri-1"></td>
-              </tr>
-              <tr>
-                <th>Second</th>
-                <td><input type="checkbox" name="event-days[]" value="mon-2"></td>
-                <td><input type="checkbox" name="event-days[]" value="tue-2"></td>
-                <td><input type="checkbox" name="event-days[]" value="wed-2"></td>
-                <td><input type="checkbox" name="event-days[]" value="thu-2"></td>
-                <td><input type="checkbox" name="event-days[]" value="fri-2"></td>
-              </tr>
-              <tr>
-                <th>Third</th>
-                <td><input type="checkbox" name="event-days[]" value="mon-3"></td>
-                <td><input type="checkbox" name="event-days[]" value="tue-3"></td>
-                <td><input type="checkbox" name="event-days[]" value="wed-3"></td>
-                <td><input type="checkbox" name="event-days[]" value="thu-3"></td>
-                <td><input type="checkbox" name="event-days[]" value="fri-3"></td>
-              </tr>
-              <tr>
-                <th>Last</th>
-                <td><input type="checkbox" name="event-days[]" value="mon-4"></td>
-                <td><input type="checkbox" name="event-days[]" value="tue-4"></td>
-                <td><input type="checkbox" name="event-days[]" value="wed-4"></td>
-                <td><input type="checkbox" name="event-days[]" value="thu-4"></td>
-                <td><input type="checkbox" name="event-days[]" value="fri-4"></td>
-              </tr>
-          </table>
-        </div>
-        <div class="event-format">
-
-        </div>
-        <input type="submit">
-      </form>
+    {% include survey.html %}
     </div>
   </div>
 </main>
