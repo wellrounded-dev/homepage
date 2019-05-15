@@ -1,8 +1,8 @@
 ---
 layout: home
-form:
-  event-days:
-  event-format:
+survey:
+  event-days: yes
+  event-format: yes
   topics:
     tools:
       - text editors
@@ -51,7 +51,3 @@ beyond just writing code.
 
 To figure out our first season, we'd like to hear from Calgary developers. What topics are you
 most excited to learn about? If you've got skills  to share, what would you like to talk about?
-
-<iframe class="survey" src="https://docs.google.com/forms/d/e/1FAIpQLSfURmuDJjESTK5pKMT-4TI_5H-IBv2I_QHD5WlOw4eekALKZg/viewform?embedded=true" width="640" height="3253" frameborder="0" marginheight="0" marginwidth="0">
-  Loading...
-</iframe>
